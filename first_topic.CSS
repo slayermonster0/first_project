@@ -1,0 +1,13 @@
+header {
+    
+    color:snow;
+    text-align: center;
+    padding: 5px;
+    font-family: initial;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black, 0 0 50px blue, 0 0 5px darkblue;
+}
+body {
+    background: grey;
+    color: white;
+}
