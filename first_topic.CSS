@@ -1,13 +1,48 @@
 header {
-    
+    background-color: grey;
     color:snow;
     text-align: center;
-    padding: 5px;
+    border: black bold 4px;
+    padding: 10px;
     font-family: initial;
-    font-size: 30px;
-    text-shadow: 2px 2px 2px black, 0 0 50px blue, 0 0 5px darkblue;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black, 0 0 10px blue, 0 0 5px darkblue;
 }
 body {
-    background: grey;
+    background-color: grey;
     color: white;
+}
+
+#first-link {
+    font-size: 20px;
+    line-height: 50px;
+    background-color: darkgrey;
+    padding: 30px;
+    padding-right: 43%;
+    padding-top: 15px;
+
+}
+#second-link {
+    font-size: 20px;
+    background-color: darkgrey;
+    padding: 30px; 
+    padding-left: 42%;
+    padding-top: 15px;
+}
+#third-link {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+    background-color: grey;
+
+
+}
+#ok {
+    padding: 20px;
+    width: 100%;
+    color: grey;
+    background-color: lightgrey;
+    text-align: center;
+
 }
