@@ -1,12 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+
+
 header {
     background-color: grey;
     color:snow;
     text-align: center;
-    border: black bold 4px;
     padding: 10px;
-    font-family: initial;
+    font-family: 'Baloo Bhai', cursive;
     font-size: 20px;
-    text-shadow: 2px 2px 2px black, 0 0 10px blue, 0 0 5px darkblue;
+    text-shadow: 2px 2px 6px black, 0 0 10px black, 0 0 5px cyan;
 }
 body {
     background-color: grey;
@@ -16,6 +19,7 @@ body {
 #first-link {
     font-size: 20px;
     line-height: 50px;
+    font-family: 'Baloo Bhai', cursive;
     background-color: darkgrey;
     padding: 30px;
     padding-right: 43%;
@@ -24,25 +28,54 @@ body {
 }
 #second-link {
     font-size: 20px;
+    font-family: 'Baloo Bhai', cursive;
     background-color: darkgrey;
     padding: 30px; 
-    padding-left: 41%;
+    padding-left: 40.80%;
     padding-top: 15px;
 }
 #third-link {
     text-align: center;
     font-size: 20px;
+    font-family: 'Baloo Bhai', cursive;
     padding: 20px;
     width: 100%;
-    background-color: grey;
+    background-color: white;
 
 
 }
 #ok {
+    font-family: 'Baloo Bhai', cursive;
     padding: 20px;
     width: 100%;
     color: grey;
     background-color: lightgrey;
-    text-align: center;
+
+}
+#yes {
+    font-size: 20px;
+    font-family: 'Baloo Bhai', cursive;
+    width: 30%;
+    background-color: darkgrey;
+    float: left;
+
+}
+#no {
+    font-size: 20px;
+    font-family: 'Baloo Bhai', cursive;
+    width: 30%;
+    background-color: darkgrey;
+    float: left;
+
+    
+
+}
+#maybe {
+    font-size: 20px;
+    font-family: 'Baloo Bhai', cursive;
+    width: 30%;
+    background-color: darkgrey;
+    float: right;
+
 
 }
