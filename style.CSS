@@ -33,49 +33,75 @@ body {
     padding: 30px; 
     padding-left: 40.80%;
     padding-top: 15px;
+    
 }
 #third-link {
     text-align: center;
     font-size: 20px;
     font-family: 'Baloo Bhai', cursive;
-    padding: 20px;
     width: 100%;
-    background-color: white;
-
+    background-color: red;
+    float: right;
+    overflow: auto;
 
 }
 #ok {
+    text-align: center;
     font-family: 'Baloo Bhai', cursive;
-    padding: 20px;
+    border: 2px black bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
     color: grey;
     background-color: lightgrey;
 
 }
-#yes {
+#try {
     font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: 'Baloo Bhai', cursive;
-    width: 30%;
-    background-color: darkgrey;
-    float: left;
-
+    width: 25%;
+    background-color: green;
+    float: right;
 }
-#no {
+#FOUR {
     font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: 'Baloo Bhai', cursive;
-    width: 30%;
-    background-color: darkgrey;
-    float: left;
-
-    
-
-}
-#maybe {
-    font-size: 20px;
-    font-family: 'Baloo Bhai', cursive;
-    width: 30%;
+    width: 25%;
     background-color: darkgrey;
     float: right;
 
+}
+#SIX {
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Baloo Bhai', cursive;
+    width: 25%;
+    background-color: black;
+    float: left;
 
 }
+
+
+a:link {
+    color: yellow;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  
+  a:hover {
+    color: red;
+    font-family: 'Baloo Bhai', cursive;
+  }
+  
+  a:active {
+    color: blue;
+  }1
