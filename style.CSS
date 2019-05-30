@@ -88,12 +88,12 @@ body {
 
 
 a:link {
-    color: yellow;
+    color: green;
   }
   
   /* visited link */
   a:visited {
-    color: green;
+    color: rgb(208, 240, 208);
   }
   
   
