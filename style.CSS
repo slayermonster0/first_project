@@ -13,7 +13,6 @@ header {
 }
 body {
     background-color: grey;
-    color: white;
 }
 
 #first-link {
@@ -93,7 +92,7 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: rgb(208, 240, 208);
+    color:lightgreen;
   }
   
   
