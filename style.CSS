@@ -12,25 +12,24 @@ header {
     text-shadow: 2px 2px 6px black, 0 0 10px black, 0 0 5px cyan;
 }
 body {
-    background-color: grey;
+    background-color: honeydew;
 }
 
 #first-link {
     font-size: 20px;
     line-height: 50px;
     font-family: 'Baloo Bhai', cursive;
-    background-color: darkgrey;
-    padding: 30px;
-    padding-right: 43%;
+    background-color: slateblue;
+    padding: 50px;
     padding-top: 15px;
 
 }
 #second-link {
     font-size: 20px;
     font-family: 'Baloo Bhai', cursive;
-    background-color: darkgrey;
+    background-color: aqua;
     padding: 30px; 
-    padding-left: 40.80%;
+
     padding-top: 15px;
     
 }
@@ -38,14 +37,14 @@ body {
     text-align: center;
     font-size: 20px;
     font-family: 'Baloo Bhai', cursive;
-    width: 100%;
-    background-color: red;
+    width: 100%;;
     float: right;
     overflow: auto;
 
 }
 #ok {
     text-align: center;
+    font-size: 40px;
     font-family: 'Baloo Bhai', cursive;
     border: 2px black bold;
     padding-top: 20px;
@@ -60,7 +59,7 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: 'Baloo Bhai', cursive;
-    width: 25%;
+    
     background-color: green;
     float: right;
 }
@@ -69,22 +68,36 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: 'Baloo Bhai', cursive;
-    width: 25%;
+    
     background-color: darkgrey;
     float: right;
 
+}
+#seven {
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Baloo Bhai', cursive;
+    
+    background-color: peru;
+    float: right;
 }
 #SIX {
     font-size: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: 'Baloo Bhai', cursive;
-    width: 25%;
+    
     background-color: black;
     float: left;
 
 }
+@media screen and (max-width: 700px){
+    #third-link, #six , #seven , #try #FOUR {
+        float: none;
+    }
 
+}
 
 a:link {
     color: green;
@@ -103,4 +116,4 @@ a:link {
   
   a:active {
     color: blue;
-  }1
+  }
