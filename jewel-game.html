@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Scope Activity #1</title>
+  <title>Jewel Game</title>
   <style>
   body{
 	background-color: black;
@@ -81,7 +81,8 @@ div.header, div.instructions{
           <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
           <li>The value of each crystal is hidden from you until you click on it.</li>
           <li>Each time when the game starts, the game will change the values of each crystal.</li>
-          <li>WARNING: rainbow gem is for the daring it can go from 1 to 100 becareful with using</li>
+          <li>WARNING: rainbow gem is for the daring it can go from 1 to 100 be careful with using</li>
+          <li>Grey crystal gets rid of a random number but becareful dont go below 0 or you lose</li>
         </ol>
       </div>
       <div class="numberToMatch">
@@ -90,6 +91,7 @@ div.header, div.instructions{
         </h2>
       </div>
       <div class="gems">
+        <img src="assets/grey-crystal.jpg" class=gemImage id= "minusOne" alt="grey Gem">
         <img src="assets/Blue-crystal.png" class=gemImage id="one" alt="Blue Gem">
         <img src="assets/Green-crystal.jpg" class=gemImage id="two" alt="Green Gem">
         <img src="assets/Red-crystal.jpg" class=gemImage id= "three" alt="Red Gem">
@@ -121,7 +123,7 @@ div.header, div.instructions{
     var num3= Math.floor(Math.random()*11+1)
     var num4= Math.floor(Math.random()*11+1)
     var num5= Math.floor(Math.random()*99+1)
-
+    var num6= Math.floor(Math.random()*30+1)
     var userTotal= 0; 
     var wins= 0;
     var losses = 0;
@@ -138,6 +140,7 @@ function reset(){
       num3= Math.floor(Math.random()*11+1);
       num4= Math.floor(Math.random()*11+1);
       num5= Math.floor(Math.random()*99+1);
+      num6= Math.floor(Math.random()*30+1);
       userTotal= 0;
       $('#finalTotal').text(userTotal);
       } 
@@ -154,8 +157,20 @@ alert ("You lose!");
   losses++;
   $('#numberLosses').text(losses);
   reset()
-}
-
+} 
+  $('#minusOne').on ('click', function(){
+    userTotal = userTotal - num6;
+    console.log("New userTotal= " + userTotal);
+    $('#finalTotal').text(userTotal); 
+          
+        if (userTotal == Random){
+          yay();
+        }
+        else if ( userTotal < 0){
+          loser();
+        }
+    num6 = Math.floor(Math.random()*30+1);   
+  })  
   $('#one').on ('click', function(){
     userTotal = userTotal + num1;
     console.log("New userTotal= " + userTotal);
@@ -214,7 +229,8 @@ alert ("You lose!");
         else if ( userTotal > Random){
           loser();
         }   
-  })     
+  }) 
+      
 }); 
 </script>
     </body>
