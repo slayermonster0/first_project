@@ -81,6 +81,7 @@ div.header, div.instructions{
           <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
           <li>The value of each crystal is hidden from you until you click on it.</li>
           <li>Each time when the game starts, the game will change the values of each crystal.</li>
+          <li>WARNING: rainbow gem is for the daring it can go from 1 to 100 becareful with using</li>
         </ol>
       </div>
       <div class="numberToMatch">
@@ -93,6 +94,7 @@ div.header, div.instructions{
         <img src="assets/Green-crystal.jpg" class=gemImage id="two" alt="Green Gem">
         <img src="assets/Red-crystal.jpg" class=gemImage id= "three" alt="Red Gem">
         <img src="assets/Yellow-crystal.jpg" class=gemImage id= "four" alt="Yellow Gem">
+        <img src="assets/rainbow-crystal.jpg" class=gemImage id= "five" alt="Rainbow Gem">
       </div>
       <div class="userTotal">
         <h2>Your total score is:
@@ -118,6 +120,7 @@ div.header, div.instructions{
     var num2= Math.floor(Math.random()*11+1)
     var num3= Math.floor(Math.random()*11+1)
     var num4= Math.floor(Math.random()*11+1)
+    var num5= Math.floor(Math.random()*99+1)
 
     var userTotal= 0; 
     var wins= 0;
@@ -134,6 +137,7 @@ function reset(){
       num2= Math.floor(Math.random()*11+1);
       num3= Math.floor(Math.random()*11+1);
       num4= Math.floor(Math.random()*11+1);
+      num5= Math.floor(Math.random()*99+1);
       userTotal= 0;
       $('#finalTotal').text(userTotal);
       } 
@@ -198,7 +202,19 @@ alert ("You lose!");
         else if ( userTotal > Random){
           loser();
         }
-  });   
+  });
+  $('#five').on ('click', function(){
+    userTotal = userTotal + num5;
+    console.log("New userTotal= " + userTotal);
+    $('#finalTotal').text(userTotal); 
+          
+        if (userTotal == Random){
+          yay();
+        }
+        else if ( userTotal > Random){
+          loser();
+        }   
+  })     
 }); 
 </script>
     </body>
