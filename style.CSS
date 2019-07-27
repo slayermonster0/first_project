@@ -3,7 +3,7 @@
 
 
 header {
-    background-color: grey;
+    /* background-color: grey; */
     color:snow;
     text-align: center;
     padding: 10px;
@@ -12,22 +12,25 @@ header {
     text-shadow: 2px 2px 6px black, 0 0 10px black, 0 0 5px cyan;
 }
 body {
-    background-color: honeydew;
+    /* background-color: honeydew; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 #first-link {
     font-size: 20px;
     line-height: 50px;
     font-family: 'Baloo Bhai', cursive;
-    background-color: slateblue;
+    /* background-color: slateblue; */
     padding: 50px;
     padding-top: 15px;
 
 }
-#second-link {
+#description {
     font-size: 20px;
     font-family: 'Baloo Bhai', cursive;
-    background-color: aqua;
+    /* background-color: aqua; */
     padding: 30px; 
 
     padding-top: 15px;
@@ -50,48 +53,19 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
-    color: grey;
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
 
 }
-#try {
+#try, #FOUR ,#seven, #SIX{
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
     font-family: 'Baloo Bhai', cursive;
-    
-    background-color: green;
+    max-width: 33%;
+    /* background-color: green; */
     float: right;
 }
-#FOUR {
-    font-size: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-family: 'Baloo Bhai', cursive;
-    
-    background-color: darkgrey;
-    float: right;
 
-}
-#seven {
-    font-size: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-family: 'Baloo Bhai', cursive;
-    
-    background-color: peru;
-    float: right;
-}
-#SIX {
-    font-size: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-family: 'Baloo Bhai', cursive;
-    
-    background-color: black;
-    float: left;
-
-}
 @media screen and (max-width: 700px){
     #third-link, #six , #seven , #try #FOUR {
         float: none;
