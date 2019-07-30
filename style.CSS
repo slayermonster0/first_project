@@ -13,6 +13,9 @@ header {
 }
 body {
     background-color: honeydew;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
 }
 
 #first-link {
