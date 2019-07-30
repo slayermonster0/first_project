@@ -31,13 +31,17 @@ body {
     padding-top: 15px;
 
 }
+#github {
+    padding-left: 140px;
+}
 
 #description {
+    color: white;
     font-size: 20px;
     font-family: 'Baloo Bhai', cursive;
     /* background-color: aqua; */
     padding: 30px;
-
+    
     padding-top: 15px;
 
 }
