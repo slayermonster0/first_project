@@ -12,11 +12,6 @@ header {
     text-shadow: 2px 2px 6px black, 0 0 10px black, 0 0 5px cyan;
 }
 body {
-<<<<<<< HEAD
-    background-color: honeydew;
-    background-repeat: no-repeat;
-    background-size: 100%;
-=======
     /* background-color: honeydew; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,8 +19,6 @@ body {
 }
 #linkedin{
     padding-top: 20px;
->>>>>>> 7332f0e7640bc01f6e305a95051ec30e7ff9a506
-    
 }
 #first-link {
     font-size: 20px;
