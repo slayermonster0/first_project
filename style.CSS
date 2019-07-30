@@ -1,25 +1,27 @@
-
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
 
 
 header {
     /* background-color: grey; */
-    color:snow;
+    color: snow;
     text-align: center;
     padding: 10px;
     font-family: 'Baloo Bhai', cursive;
     font-size: 20px;
     text-shadow: 2px 2px 6px black, 0 0 10px black, 0 0 5px cyan;
 }
+
 body {
     /* background-color: honeydew; */
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
-#linkedin{
+
+#linkedin {
     padding-top: 20px;
 }
+
 #first-link {
     font-size: 20px;
     line-height: 50px;
@@ -29,24 +31,28 @@ body {
     padding-top: 15px;
 
 }
+
 #description {
     font-size: 20px;
     font-family: 'Baloo Bhai', cursive;
     /* background-color: aqua; */
-    padding: 30px; 
+    padding: 30px;
 
     padding-top: 15px;
-    
+
 }
+
 #third-link {
     text-align: center;
     font-size: 20px;
     font-family: 'Baloo Bhai', cursive;
-    width: 100%;;
+    width: 100%;
+    ;
     float: right;
     overflow: auto;
 
 }
+
 #ok {
     text-align: center;
     font-size: 40px;
@@ -58,7 +64,11 @@ body {
     /* background-color: lightgrey; */
 
 }
-#try, #FOUR ,#seven, #SIX{
+
+#try,
+#FOUR,
+#seven,
+#SIX {
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 50px;
@@ -68,27 +78,31 @@ body {
     float: right;
 }
 
-@media screen and (max-width: 700px){
-    #third-link, #six , #seven , #try #FOUR {
+@media screen and (max-width: 700px) {
+
+    #third-link,
+    #six,
+    #seven,
+    #try #FOUR {
         float: none;
     }
 }
 
 a:link {
     color: green;
-  }
-  
+}
 
-  a:visited {
-    color:lightgreen;
-  }
-  
-  
-  a:hover {
+
+a:visited {
+    color: lightgreen;
+}
+
+
+a:hover {
     color: red;
     font-family: 'Baloo Bhai', cursive;
-  }
-  
-  a:active {
+}
+
+a:active {
     color: blue;
-  }
+}
