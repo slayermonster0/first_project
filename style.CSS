@@ -51,12 +51,16 @@ body {
     font-size: 20px;
     font-family: 'Baloo Bhai', cursive;
     width: 100%;
-    ;
+    padding-right: 20px;
     float: right;
     overflow: auto;
 
 }
-
+#third-link img {
+    height: 300px;
+    width: 70%;
+    border: dashed blue 1px;
+}
 #ok {
     text-align: center;
     font-size: 40px;
@@ -68,18 +72,23 @@ body {
     /* background-color: lightgrey; */
 
 }
-
-#try,
-#FOUR,
-#seven,
-#SIX {
+#coming {
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 50px;
     font-family: 'Baloo Bhai', cursive;
-    max-width: 33%;
+    max-width: 45%;
     /* background-color: green; */
     float: right;
+}
+#project {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: 'Baloo Bhai', cursive;
+    max-width: 45%;
+    /* background-color: green; */
+    float: left;
 }
 
 @media screen and (max-width: 700px) {
